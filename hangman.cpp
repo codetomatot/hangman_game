@@ -23,10 +23,6 @@ int main()
         foundAmt = 0;
 
         std::cout << "\nyou have: " << lives << " lives" << std::endl;
-        //for checking contents of the vector
-        // for(std::vector<char>::const_iterator i = allGuesses.begin(); i != allGuesses.end(); ++i) {
-        //     std::cout << *i << ' ';
-        // }
 
         for(int i = 0; i < answer.length(); ++i) {
             auto findLetter = std::find(letterIndex.begin(), letterIndex.end(), i);
